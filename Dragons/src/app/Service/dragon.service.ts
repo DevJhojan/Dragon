@@ -19,7 +19,9 @@ export class DragonService {
   getDragon(id:number):Observable<Dragon>{
     return this.http.get<Dragon>(`${baseUrl}/${id}`);
   }
-
+  getDragon2(id: number): Promise<Dragon>{
+    return this.http.get<Dragon>(`${baseUrl}/${id}`).toPromise();
+  }
   addDragon(dragon:Dragon){
     return this.http.post(baseUrl, dragon);
   }

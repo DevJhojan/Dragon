@@ -6,18 +6,24 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Components/home/home.component';
 import { ListDragonsComponent } from './Components/list-dragons/list-dragons.component';
 import { DetailDragonComponent } from './Components/detail-dragon/detail-dragon.component';
+import { NewDragonComponent } from './Components/new-dragon/new-dragon.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { EditDragonComponent } from './Components/edit-dragon/edit-dragon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListDragonsComponent,
-    DetailDragonComponent
+    DetailDragonComponent,
+    NewDragonComponent,
+    EditDragonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

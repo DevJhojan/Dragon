@@ -1,0 +1,38 @@
+<div class="p-3">
+  <a  class="btn btn-warning" routerLink=""> back</a>
+</div>
+<form [formGroup]="formUpdateDragon" (ngSubmit)="update()" class="card-body mt-2 bg-danger w-50 text-center p-2 container">
+  <p class="text-light ">current Image</p>
+  <img [src]="dragon?.img" class="card-img w-50">
+  <h3 class="title text-light">Current name: {{dragon?.title}}</h3>
+  <div class="content">
+    <p class="text text-light">current description: {{dragon?.description}}</p>
+  </div>
+  <div class="form-group text-center mt-2">
+    <input
+      type="text"
+      class="text form-control"
+      placeholder="New Name of Dragon"
+      formControlName="title"
+      fodiGoogleplace
+    />
+  </div>
+  <div class="form-group mt-2">
+    <textarea
+      type="text"
+      class="text form-control"
+      placeholder="New Description"
+      formControlName="description"
+    ></textarea>
+  </div>
+
+  <div class="form-group mt-2">
+    <input
+      type="text"
+      class="text form-control"
+      PlaceHolder="New Url of Image"
+      formControlName="img"
+    />
+  </div>
+  <input type="submit" value="Actualizar" class="btn btn-primary mt-2" />
+</form>

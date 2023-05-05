@@ -3,14 +3,26 @@
     {
       "id": 1,
       "title": "Dragon Fire",
-      "description":"fire-breathing dragon",
-      "img":"https://i.pinimg.com/originals/86/f7/60/86f760005f9493379cf0451746a341e7.png"
+      "description": "fire-breathing dragon",
+      "img": "https://i.pinimg.com/originals/86/f7/60/86f760005f9493379cf0451746a341e7.png"
     },
     {
       "id": 2,
       "title": "Dragon Water",
-      "description":"Dragon that attacks with water arrows",
-      "img":"https://i.redd.it/azo6tx3sxo1a1.png"
+      "description": "Dragon that attacks with water arrows",
+      "img": "https://i.redd.it/azo6tx3sxo1a1.png"
+    },
+    {
+      "title": "Acid Dragon",
+      "description": "Spit Deadly Acid",
+      "img": "https://steamuserimages-a.akamaihd.net/ugc/87096384655660066/1CA480DE254C8775BE7C3476FBA769066F50C314/?imw=1024&imh=597&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+      "id": 3
+    },
+    {
+      "title": "Green Dragon",
+      "description": "plant control",
+      "img": "https://i.pinimg.com/originals/e5/08/6c/e5086ca354687c578bd63e3737fd3f26.jpg",
+      "id": 4
     }
   ]
 }

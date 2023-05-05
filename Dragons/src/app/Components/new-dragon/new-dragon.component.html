@@ -1,0 +1,34 @@
+<button class="btn  btn-warning mt-2" (click)="onBack()">back</button>
+<form
+  class="form text-center bg-secondary p-2 w-50 mt-1"
+  [formGroup]="formNewDragon"
+  (ngSubmit)="onAddDragon()"
+>
+  <div class="form-group text-center mt-2">
+    <input
+      type="text"
+      class="text form-control"
+      placeholder="Name of Dragon"
+      formControlName="title"
+      fodiGoogleplace
+    />
+  </div>
+  <div class="form-group mt-2">
+    <textarea
+      type="text"
+      class="text form-control"
+      placeholder="New Description"
+      formControlName="description"
+    ></textarea>
+  </div>
+
+  <div class="form-group mt-2">
+    <input
+      type="text"
+      class="text form-control"
+      PlaceHolder="Url of Image"
+      formControlName="img"
+    />
+  </div>
+  <input type="submit" value="Guardar" class="btn btn-danger mt-2" />
+</form>
