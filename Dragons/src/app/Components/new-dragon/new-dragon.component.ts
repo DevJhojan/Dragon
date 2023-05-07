@@ -3,7 +3,6 @@ import * as forms from '@angular/forms';
 import { DragonService } from '../../Service/dragon.service';
 import { Dragon } from 'src/app/Models/Dragon.models';
 import { Router } from '@angular/router';
-import { parseUrl } from 'next/dist/shared/lib/router/utils/parse-url';
 import { ParsedVariable } from '@angular/compiler';
 @Component({
   selector: 'app-new-dragon',

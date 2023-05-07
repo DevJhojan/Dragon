@@ -1,28 +1,64 @@
 {
   "Dragons": [
     {
-      "id": 1,
-      "title": "Dragon Fire",
-      "description": "fire-breathing dragon",
-      "img": "https://i.pinimg.com/originals/86/f7/60/86f760005f9493379cf0451746a341e7.png"
+      "title": "Fire Dragon",
+      "description": "It spits out an incalculable flame of fire, contains a long body, and is extremely aggressive.",
+      "img": "https://i.pinimg.com/originals/86/f7/60/86f760005f9493379cf0451746a341e7.png",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Dragon Water",
-      "description": "Dragon that attacks with water arrows",
-      "img": "https://i.redd.it/azo6tx3sxo1a1.png"
+      "title": "Water Dragon",
+      "description": "Spits water under pressure, and creates its own water with its tail",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7fdcaee7-332d-4598-91f3-815e9efe3f4d/deaiopv-3af21e85-38ac-49ad-ac16-8577d1e361ee.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdmZGNhZWU3LTMzMmQtNDU5OC05MWYzLTgxNWU5ZWZlM2Y0ZFwvZGVhaW9wdi0zYWYyMWU4NS0zOGFjLTQ5YWQtYWMxNi04NTc3ZDFlMzYxZWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ytxVc60v2cbnE6OTjH0ZwZVFcFhbf3U7iqNR0iODS5s",
+      "id": 2
     },
     {
       "title": "Acid Dragon",
-      "description": "Spit Deadly Acid",
+      "description": "Spits deadly acid, which can disintegrate any living being with the slightest contact",
       "img": "https://steamuserimages-a.akamaihd.net/ugc/87096384655660066/1CA480DE254C8775BE7C3476FBA769066F50C314/?imw=1024&imh=597&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
       "id": 3
     },
     {
-      "title": "Green Dragon",
-      "description": "plant control",
+      "title": "Forest Dragon",
+      "description": "He has control of all the fauna and flora around him, he is passive with humans, however, the fauna around him cannot be destroyed, he is dangerous and can make any plant grow to impale whoever is burning what is around him around",
       "img": "https://i.pinimg.com/originals/e5/08/6c/e5086ca354687c578bd63e3737fd3f26.jpg",
       "id": 4
+    },
+    {
+      "title": "Golden Dragon",
+      "description": "Attack with molten gold and create your own gold from your hands, It is usually extremely dangerous, when it has young",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/335ae80a-75ab-4b3d-b7ac-4c4dc1bbcee7/d2gmj56-3fb22b39-4a02-478c-b908-f8d61b6e8e57.jpg/v1/fill/w_628,h_524,q_75,strp/golden_dragon_by_amisgaudi_d2gmj56-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTI0IiwicGF0aCI6IlwvZlwvMzM1YWU4MGEtNzVhYi00YjNkLWI3YWMtNGM0ZGMxYmJjZWU3XC9kMmdtajU2LTNmYjIyYjM5LTRhMDItNDc4Yy1iOTA4LWY4ZDYxYjZlOGU1Ny5qcGciLCJ3aWR0aCI6Ijw9NjI4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.MBaBbN11_b60uKdA97fAPEqCa72hYmzKNdTpljSYaSs",
+      "id": 5
+    },
+    {
+      "title": "Silver Dragon",
+      "description": "Attacks with Silver, and creates his own silver metal with eyes",
+      "img": "https://angrygolem-games.com/wp-content/uploads/2021/11/Silver-Dragon-Adult.jpg",
+      "id": 6
+    },
+    {
+      "title": "Earth Dragon",
+      "description": "He manipulates the earth to his liking, he can create unusual figures, with his element, he causes earthquakes and makes the earth generate spikes to impale his opponent",
+      "img": "https://o.quizlet.com/hwJLaize8GwdZDvh.GOTbQ_b.jpg",
+      "id": 7
+    },
+    {
+      "title": "Platinum Dragon",
+      "description": "Handle the Platinum, and everything it touches turns platinum, it is extremely dangerous to get close to it",
+      "img": "https://pbs.twimg.com/media/DiVl6QjWAAAHAex.jpg",
+      "id": 8
+    },
+    {
+      "title": "Dark Dragon",
+      "description": "He moves stealthily, in such a way that no human detects him in time, he has powers of, he can teleport and stays at night",
+      "img": "https://slm-assets.secondlife.com/assets/502120/view_large/2035c778371684e1d504b1037c381c1d.jpg?1277029008",
+      "id": 9
+    },
+    {
+      "title": "White Dragon",
+      "description": "His power is light and his enemy is the Dragon of Darkness, he is pious and very happy, he will protect you from all danger and some regions have him as a King",
+      "img": "https://newearthenergies.org/wp-content/uploads/2015/07/white-dragon.jpg",
+      "id": 10
     }
   ]
 }

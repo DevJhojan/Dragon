@@ -19,9 +19,9 @@ export class EditDragonComponent implements OnInit {
     private dragonServi: DragonService
   ) {
     this.formUpdateDragon = new forms.FormGroup({
-      title: new forms.FormControl('', []),
-      description: new forms.FormControl('', []),
-      img: new forms.FormControl(''),
+      title: new forms.FormControl('', [forms.Validators.required]),
+      description: new forms.FormControl('', [forms.Validators.required]),
+      img: new forms.FormControl('', [forms.Validators.required]),
     });
 
     this.dragon = new Dragon();
@@ -44,5 +44,31 @@ export class EditDragonComponent implements OnInit {
         },
       });
     });
+  }
+
+  titleCurren() {
+    if (this.formUpdateDragon.get('title').value != '') {
+      return alert('El campo para el nuevo titulo no esta vacio');
+    } else {
+      this.formUpdateDragon.get('title').setValue(this.dragon.title);
+    }
+  }
+  descriptionCurren() {
+    if (this.formUpdateDragon.get('description').value != '') {
+      return alert('El campo para la nueva descripción no esta vacio');
+    } else {
+      this.formUpdateDragon
+        .get('description')
+        .setValue(this.dragon.description);
+    }
+  }
+  imgCurren() {
+    if (this.formUpdateDragon.get('img').value != '') {
+      return alert('El campo para la nueva imagen no esta vacio');
+    } else {
+      this.formUpdateDragon
+        .get('img')
+        .setValue(this.dragon.img);
+    }
   }
 }

@@ -1,38 +1,76 @@
-<div class="p-3">
-  <a  class="btn btn-warning" routerLink=""> back</a>
-</div>
-<form [formGroup]="formUpdateDragon" (ngSubmit)="update()" class="card-body mt-2 bg-danger w-50 text-center p-2 container">
-  <p class="text-light ">current Image</p>
-  <img [src]="dragon?.img" class="card-img w-50">
-  <h3 class="title text-light">Current name: {{dragon?.title}}</h3>
-  <div class="content">
-    <p class="text text-light">current description: {{dragon?.description}}</p>
+<header class="headeris">
+  <h1 class="title">Dragons</h1>
+  <div class="p-3">
+    <a class="btn-header btn-warning" routerLink=""> back</a>
   </div>
-  <div class="form-group text-center mt-2">
+</header>
+<form [formGroup]="formUpdateDragon" (ngSubmit)="update()" class="contenid">
+  <div class="form-group w-100 text-center mt-2">
     <input
       type="text"
-      class="text form-control"
+      class="texting form-control"
       placeholder="New Name of Dragon"
       formControlName="title"
       fodiGoogleplace
     />
   </div>
-  <div class="form-group mt-2">
+  <div class="form-group w-100 mt-2">
     <textarea
       type="text"
-      class="text form-control"
+      class="text-descrip form-control"
       placeholder="New Description"
       formControlName="description"
     ></textarea>
   </div>
 
-  <div class="form-group mt-2">
+  <div class="form-group w-100 mt-2">
     <input
       type="text"
-      class="text form-control"
+      class="texting form-control"
       PlaceHolder="New Url of Image"
       formControlName="img"
     />
   </div>
-  <input type="submit" value="Actualizar" class="btn btn-primary mt-2" />
+  <input
+    type="submit"
+    value="Actualizar"
+    class="btn-car btn-block btn-dark mt-2"
+    [disabled]="!formUpdateDragon.valid"
+  />
 </form>
+
+<div class="contenid-buttons">
+  <button class="validate" (click)="titleCurren()">Dejar titulo actual</button>
+  <button class="validate" (click)="descriptionCurren()">Dejar Description actual</button>
+  <button class="validate" (click)="imgCurren()">Dejar imagen actual</button>
+</div>
+
+<div class="new-contenid">
+  <h3 class="title">New Content</h3>
+  <div class="body-card">
+    <img [src]="formUpdateDragon.get('img').value" />
+    <div class="titleAndDescription">
+      <h3 class="title-car">
+        New title: <br />
+        {{ formUpdateDragon.get("title").value }}
+      </h3>
+      <p class="texting">
+        New Description: <br />{{ formUpdateDragon.get("description").value }}
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="curren-contenid">
+  <h3 class="title">Curren Content</h3>
+  <div class="body-card">
+    <img [src]="dragon?.img" class="curren-img-card" />
+    <div class="titleAndDescription">
+      <h3 class="title-car">
+        Curren title: <br />
+        {{ dragon?.title }}
+      </h3>
+      <p class="texting">Curren Description: <br />{{ dragon?.description }}</p>
+    </div>
+  </div>
+</div>

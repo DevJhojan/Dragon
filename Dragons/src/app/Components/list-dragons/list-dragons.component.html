@@ -1,21 +1,26 @@
-<div class="container w-50 bg-danger p-2">
-  <button class="btn btn-primary ms-5 mt-2 mb-2" (click)="NewDragon()">
+<header class="headeris">
+  <h1 class="title ">Dragons</h1>
+  <button class="btn-header btn-primary" (click)="NewDragon()">
     new Dragon
   </button>
+</header>
+<div class="contenid">
   <div
-    class="card-body w-100 text-center bg-primary mt-2 p-2"
+    class="body-card  "
     *ngFor="let dragon of this.dragons"
   >
-    <img [src]="dragon?.img" class="card-image mx-auto w-100" />
-    <h3 class="card-title text-light">{{ dragon?.title }}</h3>
-    <p class="text text-light">{{ dragon?.description }}</p>
-    <button (click)="editDragon(dragon?.id)" class="btn btn-secondary m-2">
+    <img [src]="dragon?.img" class="card-image" />
+    <div class="titleAndDescription">
+      <h3 class="title-card ">{{ dragon?.title }}</h3>
+      <p class="texting">{{ dragon?.description }}</p>
+    </div>
+    <button (click)="editDragon(dragon?.id)" class="btn-card btn-secondary ">
       Editar
     </button>
-    <button (click)="detailDragon(dragon?.id)" class="btn btn-warning">
+    <button (click)="detailDragon(dragon?.id)" class="btn-card btn-warning">
       Detalle
     </button>
-    <button (click)="deleteDragon(dragon?.id)" class="btn btn-danger m-2">
+    <button (click)="deleteDragon(dragon?.id)" class="btn-card btn-danger ">
       Eliminar
     </button>
   </div>

@@ -1,0 +1,103 @@
+@import url("https://gitlab.com/bonjour-monde/fonderie/syne-typeface");
+.headeris {
+  width: 98%;
+  height: 5%;
+  margin-left: 1%;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.438);
+  .title {
+      width: 20%;
+      color: red;
+    text-align: center;
+  }
+
+  .btn-header {
+    position: absolute;
+    width: 10%;
+    height: 4%;
+    right: 3%;
+    border: none;
+    border-radius: 1rem;
+    color :yellow; 
+    background-color: red;
+    margin-top: 0.8%;
+  }
+}
+.contenid {
+  width: 95%;
+  height: 45rem;
+  padding: 2rem;
+  display: flex;
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  margin-left: 2.5%;
+  overflow: hidden scroll;
+  scrollbar-width: none;
+  justify-content: center;
+  background-color: rgb(37, 15, 15);
+  .body-card {
+    width: 30%;
+    height: 40%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 0, 0, 0.568);
+    img {
+      width: 55%;
+      height: 60%;
+      margin-top: -2%;
+    }
+    .card-image {
+      border-radius: 1rem;
+      margin-top: 1%;
+      margin-bottom: 5%;
+    }
+
+    .btn-card {
+      width: 20%;
+      margin: 2%;
+      height: 15%;
+      margin-top: 0%;
+      border: none;
+      color: red;
+      background-color: rgb(10, 4, 4);
+      border-radius: 1rem;
+    }
+    .titleAndDescription {
+      width: 45%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .title-card {
+        width: 100%;
+        height: 10%;
+        font-size: 100%;
+        padding-top: 1%;
+        color: rgb(255, 94, 0);
+      }
+      .texting {
+        width: 95%;
+        height: 60%;
+        font-size: 90%;
+        margin-top: -23%;
+        padding-top: -1%;
+        text-align: center;
+        border-radius: 0.5rem;
+        scrollbar-width: none;
+        color: rgb(255, 217, 0);
+        overflow: hidden scroll;
+        scrollbar-width: none;
+      }
+    }
+  }
+}

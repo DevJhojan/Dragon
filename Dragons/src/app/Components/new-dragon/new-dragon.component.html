@@ -1,34 +1,53 @@
-<button class="btn  btn-warning mt-2" (click)="onBack()">back</button>
+<header class="headeris">
+  <h1 class="title">Dragons</h1>
+  <button class="btn-header" (click)="onBack()">back</button>
+</header>
 <form
-  class="form text-center bg-secondary p-2 w-50 mt-1"
+  class="contenid form"
   [formGroup]="formNewDragon"
   (ngSubmit)="onAddDragon()"
 >
-  <div class="form-group text-center mt-2">
+  <div class="form-group w-100">
     <input
       type="text"
       class="text form-control"
-      placeholder="Name of Dragon"
+      placeholder="Name of new Dragon"
       formControlName="title"
       fodiGoogleplace
     />
   </div>
-  <div class="form-group mt-2">
+  <div class="form-group w-100">
     <textarea
       type="text"
-      class="text form-control"
-      placeholder="New Description"
+      class="text-descrip form-control"
+      placeholder="Description Dragon"
       formControlName="description"
     ></textarea>
   </div>
 
-  <div class="form-group mt-2">
+  <div class="form-group w-100">
     <input
       type="text"
       class="text form-control"
-      PlaceHolder="Url of Image"
+      PlaceHolder="Url of Image Dragon"
       formControlName="img"
     />
   </div>
-  <input type="submit" value="Guardar" class="btn btn-danger mt-2" />
+  <input type="submit" value="Guardar" class="btn-car w-100" />
+
 </form>
+<div class="new-contenid">
+  <h3 class="title">New Content</h3>
+  <div class="body-card">
+    <img [src]="formNewDragon.get('img').value" />
+    <div class="titleAndDescription">
+      <h3 class="title-car">
+        New title: <br />
+        {{ formNewDragon.get("title").value }}
+      </h3>
+      <p class="texting">
+        New Description: <br />{{ formNewDragon.get("description").value }}
+      </p>
+    </div>
+  </div>
+</div>

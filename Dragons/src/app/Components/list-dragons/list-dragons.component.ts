@@ -33,7 +33,7 @@ export class ListDragonsComponent implements OnInit {
   deleteDragon(index:number){
     this.dragonServi.deleteDragon(index).subscribe({
       next:()=>{
-        this.router.navigate(['/home/listDragon']);
+        location.reload();
       }
     })
   }
